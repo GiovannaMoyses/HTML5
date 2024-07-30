@@ -26,13 +26,24 @@ p{
     text-indent: 50px;
     
 }
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1380px;
+    top: 60px;
+}
+
 body{
     background-color: rgba(230, 226, 199, 0.817);
     color: rgba(0, 0, 0,1);
 }
 
 div#interface{
-    width: 1350px;
+    width: 1540px;
+    background-color: #e7e6e6dd;
+    margin: -25px auto 0px auto;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px 10px 10px 10px;
 }
 figure.foto-legenda{
     position: relative;
@@ -70,7 +81,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    right: 100px;
+    right: 150px;
 }
 nav#menu li{
     display: inline-block;
