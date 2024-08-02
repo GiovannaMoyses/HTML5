@@ -1,0 +1,393 @@
+code em css
+
+@charset "UTF-8";
+@font-face {
+    font-family: "fontelogo";
+    src: url("../fontes/florida_vibes/Florida\ Vibes\ by\ Turbologo.otf");
+}
+h1{
+    font-family: Arial;
+    font-size: 30pt;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px black;
+    text-align: left;
+}
+h2{
+    font-family: Arial;
+    font-size: 25pt;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+h3{
+    font-family: Arial;
+    font-size: 15pt;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+p{
+    font-family: Arial;
+    font-size: 20pt;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    text-indent: 50px;
+    
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 1380px;
+    top: 60px;
+}
+
+header#cabecalho {
+    border-bottom: 1px #aaaaaa solid;
+    height: 200px;
+    background: url("nota.png") no-repeat 0px 120px;
+}
+
+header#cabecalho h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 35pt;
+    color: red;
+    text-shadow: 2.5px 2.5px 2.5px black;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(216, 83, 83);
+    font-size: 25pt;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+body{
+    background-color: rgba(230, 226, 199, 0.817);
+    color: rgba(0, 0, 0,1);
+}
+
+div#interface{
+    width: 1540px;
+    background-color: #e7e6e6dd;
+    margin: -25px auto 0px auto;
+    box-shadow: 0px 0px 5px black;
+    padding: 10px 10px 10px 10px;
+}
+figure.foto-legenda{
+    position: relative;
+    border: 5px solid white;
+    box-shadow: 1px 1px 3px black;
+}
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    background-color: rgba(0, 0, 0,.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption{
+opacity:1;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: 350px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: #aaaaaa;
+}
+
+nav#menu h2{
+    display: none;
+}
+
+nav#menu a{
+    color:black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+color: #ffffff;
+text-decoration: underline;
+}
+
+article#news h2 {
+    font-size: 20pt;
+    color: #5c5757;
+    background-color: #d3d3d3aa ;
+    padding: 5px 0px 5px 0px;
+    margin: 10px 0px 10px 0px;
+
+}
+header#artigo h1 {
+    font-family: 'fontelogo', sans-serif;
+    font-size: 55pt;
+    color:#5c5757;
+
+
+}
+
+header#artigo h2 {
+    font-size: 25pt;
+    color: #aaaaaa;
+    background-color: #e7e6e6dd;
+}
+
+.direito {
+    text-align: right;
+}
+
+header#artigo h3 {
+    font-size: 20px;
+    color: rgb(105, 103, 103);
+}
+
+section#corpo {
+    display:block;
+    width: 980px;
+    float: left;
+    border-right: 1px solid black; 
+    padding-right: 15px;
+}
+
+table#tabelac {
+
+    border: 1px solid black;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelac td {
+    
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+        vertical-align:middle;
+    }
+
+table#tabelac td.ce {
+       color: #aaaaaa;
+       background-color: black;
+       vertical-align: top;
+       font-weight: bold;
+
+}
+
+table#tabelac td.cd{
+    color: black;
+    background-color: #aaaaaa;
+}
+
+table#tabelac caption{
+    color: red;
+    font-size: 25pt;
+    font-weight: bolder;
+
+}
+aside#lateral {
+    display: block;
+    width: 500px;
+    float: right;
+    background-color: #c9c7c7;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral h1{
+    font-family: 'fontelogo', sans-serif;
+    font-size: 60pt;
+    color: #5c5757;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #aaaaaa;
+    font-size: 20pt;
+}
+
+footer#rodape {
+    clear:both;
+    border-top: 1px solid black;
+}
+
+footer#rodape  p {
+    font-size: 15pt;
+    text-align: center;
+}
+
+code em html
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <title> Tudo sobre Musica Acadêmica</title>
+        <link rel = "stylesheet"  href="estilo.css"/>
+    </head>
+
+    <body>
+
+    <div id="interface"> 
+    <header id="cabecalho"> 
+    <hgroup>
+
+        <h1>Música Acadêmica</h1>
+        <h2>Musica é vida</h2>
+
+    </hgroup>
+    
+    <img id="icone" src="music_1.png"/>
+    
+       <nav id="menu">
+       <h2> Menu Principal </h2>
+        <ul type="disc">
+            <li><a href="Academic_Music.html">Home</a></li>
+            <li><a href="especifica.html">Especificações</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="multimid.html">Multimídia</a></li>
+            <li><a href="fale.html">Fale conosco</a></li>
+        </ul>
+       </nav>
+    </header>
+<section id="corpo">
+    <article id="news">
+    <header id="artigo">
+<h3>Música >&nbsp;&nbsp;Cultura</h3>
+<h1>Conheça um pouco sobre Música Acadêmica</h1>
+<h2>Por Giovanna Moysés</h2>
+<h3 class="direito">Atualizado em 30/07/2024</h3>
+    </header>
+<h2>O que é</h2>
+
+<p>A<span style = "font-weight: bolder"> música acadêmica</span>, ou música erudita, é um universo vasto e complexo que abrange uma rica tradição de composições e interpretações que remontam séculos de história.&nbsp;
+
+Diferente da música popular contemporânea,<br> que muitas vezes é voltada para o entretenimento imediato e o consumo massivo, a música acadêmica é frequentemente concebida com profundidade artística e intelectual. </p> <br>
+
+<figure class="foto-legenda"> 
+    
+    <img src = "acad-osesp-site.jpg">
+     <figcaption>
+        
+        Alunos de uma orquestra, aprendendo a música acadêmica.
+
+     </figcaption>
+</figure>
+
+
+<h2>características</h2>
+
+<table id="tabelac">
+ <caption>Musica Academica</caption>
+
+    <tr><td class="ce">Aspecto</td><td class="cd">Descrição</td></tr>
+
+    <tr><td class="ce">Definição</td> <td class="cd">Música composta e performada de acordo com tradições estabelecidas, geralmente ligada à prática e estudo formal.</td></tr>
+
+<tr><td class="ce">Períodos</td> <td class="cd">Antigo (até 1600), Barroco (1600-1750), Clássico (1750-1820), Romântico (1820-1900), Moderno (1900-presente)</td></tr>
+
+<tr><td class="ce">Forma Musical</td> <td class="cd">Estruturas como sonata, sinfonia, concerto, suíte, e ópera são comuns.</td></tr>
+
+<tr><td class="ce">Compositores</td> <td class="cd">Bach, Beethoven, Mozart, Chopin, Debussy, Stravinsky, entre outros.</td></tr>
+
+<tr><td class="ce">Instrumentos</td>	<td class="cd">Piano, violino, violoncelo, trompete, flauta, entre outros instrumentos orquestrais e de câmara.</td></tr>
+
+<tr><td class="ce">Notação Musical	</td> <td class="cd">Utiliza um sistema de notação padrão com pautas e símbolos específicos para indicar notas, ritmos e dinâmicas.</td></tr>
+
+<tr><td class="ce">Performance</td> <td class="cd">Pode ocorrer em salas de concerto, óperas, teatros e estúdios, frequentemente com orquestras, coros ou ensembles.</td></tr>
+
+<tr><td class="ce">Teoria Musical</td> <td class="cd">Inclui análise de harmonia, contraponto, forma e estrutura musical.</td></tr>
+
+<tr><td class="ce">Educação</td> <td class="cd">Estudada em conservatórios, universidades e escolas de música, com foco em técnica, teoria e história.</td></tr>
+
+<tr><td class="ce">Estilo e Expressão </td><td class="cd">Grande diversidade, desde a precisão formal até a expressão emocional profunda.</td></tr>
+<tr><td class="ce">Influência Cultural</td> <td class="cd">Tem um impacto significativo na cultura ocidental e frequentemente influencia outros gêneros musicais e artes.</td></tr>
+
+</table>
+
+<p>Na música acadêmica, a ênfase está na complexidade estrutural, na inovação harmônica e na exploração de formas musicais que desafiam tanto os ouvintes quanto os intérpretes.
+
+Compositores renomados como Bach, Beethoven, Mozart, Brahms e tantos outros deixaram um legado que continua a inspirar músicos e ouvintes até os dias atuais.
+
+A execução da música acadêmica também demanda um alto nível de habilidade técnica e interpretação refinada.
+
+Músicos dedicam anos de estudo para dominar seus instrumentos e compreender a profundidade emocional e intelectual das composições. 
+
+Orquestras sinfônicas, grupos de câmara e solistas colaboram para trazer à vida obras que frequentemente exploram temas universais como amor, tragédia, alegria e melancolia. 
+
+A experimentação sonora e a fusão de diferentes influências culturais são características cada vez mais presentes na música acadêmica contemporânea. </p> <br>
+
+
+<h2>Época</h2>
+
+<p>Além das grandes composições do passado, a música acadêmica também abraça a contemporaneidade, com compositores modernos e pós-modernos desafiando as convenções estabelecidas e explorando novas técnicas e estilos. 
+
+A apreciação da música acadêmica muitas vezes requer um ouvido educado, capaz de captar nuances e sutilezas que não são tão evidentes em gêneros musicais mais populares. </p> <br>
+
+<h2>Considerações finais</h2>
+
+<p>Contudo, a recompensa por esse esforço é uma experiência musical profundamente enriquecedora e transformadora, capaz de conectar pessoas através dos séculos e inspirar reflexão e contemplação.
+
+Em resumo, a música acadêmica não é apenas um conjunto de composições e performances, mas sim um testemunho da capacidade humana de criar beleza e expressar emoções complexas através do som. 
+
+É um patrimônio cultural precioso que continua a evoluir e a inspirar, garantindo seu lugar como uma das formas de arte mais significativas e duradouras da humanidade. </p> <br>
+</article>
+</section>
+
+<aside id="lateral">
+    <h1>Outras curiosidades</h1>
+    <p>A música é uma forma de arte que utiliza o som como meio de expressão. Ela pode ser entendida em diversos contextos, desde a composição e teoria musical até a performance e apreciação.</p> 
+    <p>História e Evolução: A música tem uma longa história, que começa com as primeiras formas de música vocal e instrumental nas sociedades antigas. A evolução da música ao longo dos séculos inclui o desenvolvimento de diferentes estilos, formas e tecnologias, desde a música clássica da Europa até os variados gêneros da música moderna.</p> 
+
+    <p>Gêneros e Estilos: Existem muitos gêneros musicais, cada um com suas características distintas. Alguns dos mais conhecidos incluem o rock, jazz, blues, hip-hop, música clássica, e música eletrônica. Cada gênero tem suas próprias tradições e influências.</p> 
+
+    <p>Teoria Musical: A teoria musical é o estudo dos elementos que compõem a música, como melodia, harmonia, ritmo e forma. Ela ajuda a entender como as músicas são estruturadas e como diferentes elementos se combinam para criar uma peça musical.</p> 
+
+    <p>Composição e Improvisação: Compor música envolve criar novas peças musicais, enquanto a improvisação é o processo de criar música de forma espontânea. Ambos são aspectos importantes da prática musical e têm diferentes desafios e recompensas.</p>
+
+    <p>Impacto Cultural: A música desempenha um papel importante na cultura e na sociedade. Pode refletir a identidade cultural, criar uma sensação de pertencimento e até mesmo influenciar mudanças sociais e políticas.</p> 
+
+    <p>Educação Musical: Estudar música pode ter vários benefícios, incluindo melhorar habilidades cognitivas, promover a expressão emocional e fornecer uma forma de conexão social. Muitas escolas e instituições oferecem programas de educação musical para ajudar as pessoas a desenvolver essas habilidades.</p> 
+
+    <p>Tecnologia e Inovação: A tecnologia tem transformado a música de várias maneiras, desde a gravação e produção até a distribuição digital e as plataformas de streaming. Isso tem facilitado o acesso à música e possibilitado novas formas de criação e compartilhamento.</p> 
+
+    <h2>Vídeos mais recentes</h2>
+</aside>
+
+<footer id="rodape">
+<p>Copyright &copy; 2024 - by Giovanna Moyses <br>
+    <a href="https://facebook.com/login" target="_blank">Facebook</a> | <a href="https://twitter.com/login"target="_blank">Twitter</a> </p>
+</footer>
+    </div>
+
+    </body>
+</html>
