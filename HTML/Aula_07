@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <title> Tudo sobre Academic Music</title>
+        <style>
+            h1{
+                font-family: Arial;
+                font-size: 30pt;
+                color:red;
+                text-shadow: 2px 2px 2px black;
+                text-align: center;
+            }
+            h2{
+                font-family: Arial;
+                font-size: 25pt;
+                color: black;
+                text-align: left;
+            }
+            h3{
+                font-family: Arial;
+                font-size: 15;
+                color: black;
+                text-align: left;
+            }
+            p{
+                font-family: Arial;
+                font-size: 20;
+                color: black;
+                text-align: justify;
+                text-indent: 50px;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <div id="interface"> 
+    
+    <header id="cabecalho"> 
+
+    <hgroup>
+
+        <h1>Música Acadêmica</h1>
+        <h2>Musica é vida</h2>
+
+    </hgroup>
+
+    <img src="music.jpg"/>
+
+    Menu Principal 
+    - Home 
+    - Especificações
+    - Fotos
+    - Multimídia
+    - Fale conosco
+    </header>
+    
+<h3>Música >&nbsp;&nbsp;Cultura</h3>
+<h1>Conheça um pouco sobre Música Acadêmica</h1>
+<h2>Por Giovanna Moysés</h2>
+<h3>Atualizado em 23/07/2024</h3>
+
+<h2>O que é</h2>
+
+<p>A<span style = "font-weight: bolder"> música acadêmica</span>, ou música erudita, é um universo vasto e complexo que abrange uma rica tradição de composições e interpretações que remontam séculos de história.&nbsp;
+
+Diferente da música popular contemporânea,<br> que muitas vezes é voltada para o entretenimento imediato e o consumo massivo, a música acadêmica é frequentemente concebida com profundidade artística e intelectual. </p> <br>
+
+<h2>características</h2>
+
+<p>Na música acadêmica, a ênfase está na complexidade estrutural, na inovação harmônica e na exploração de formas musicais que desafiam tanto os ouvintes quanto os intérpretes.
+
+Compositores renomados como Bach, Beethoven, Mozart, Brahms e tantos outros deixaram um legado que continua a inspirar músicos e ouvintes até os dias atuais.
+
+A execução da música acadêmica também demanda um alto nível de habilidade técnica e interpretação refinada.
+
+Músicos dedicam anos de estudo para dominar seus instrumentos e compreender a profundidade emocional e intelectual das composições. 
+
+Orquestras sinfônicas, grupos de câmara e solistas colaboram para trazer à vida obras que frequentemente exploram temas universais como amor, tragédia, alegria e melancolia. 
+
+A experimentação sonora e a fusão de diferentes influências culturais são características cada vez mais presentes na música acadêmica contemporânea. </p> <br>
+
+<h2>Época</h2>
+
+<p>Além das grandes composições do passado, a música acadêmica também abraça a contemporaneidade, com compositores modernos e pós-modernos desafiando as convenções estabelecidas e explorando novas técnicas e estilos. 
+
+A apreciação da música acadêmica muitas vezes requer um ouvido educado, capaz de captar nuances e sutilezas que não são tão evidentes em gêneros musicais mais populares. </p> <br>
+
+<h2>Considerações finais</h2>
+
+<p>Contudo, a recompensa por esse esforço é uma experiência musical profundamente enriquecedora e transformadora, capaz de conectar pessoas através dos séculos e inspirar reflexão e contemplação.
+
+Em resumo, a música acadêmica não é apenas um conjunto de composições e performances, mas sim um testemunho da capacidade humana de criar beleza e expressar emoções complexas através do som. 
+
+É um patrimônio cultural precioso que continua a evoluir e a inspirar, garantindo seu lugar como uma das formas de arte mais significativas e duradouras da humanidade. </p> <br>
+
+    </div>
+
+    </body>
+
+</html>
