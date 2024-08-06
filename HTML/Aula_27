@@ -1,3 +1,5 @@
+code html
+
 <!DOCTYPE html>
 
 <html lang="pt-br">
@@ -84,3 +86,23 @@
             </body>
         </html>
         
+code css
+
+@charset "UTF-8";
+
+section#conteudo{
+    width: 1500px;
+    margin: auto; 
+}
+
+iframe#frame-espec{
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+
+}
+iframe#frame-espec::-webkit-scrollbar{
+    display: none;
+
+}
