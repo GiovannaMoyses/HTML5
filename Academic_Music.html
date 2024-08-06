@@ -8,6 +8,7 @@
         <title> Tudo sobre Musica Acadêmica</title>
         <link rel = "stylesheet"  href="estilo.css"/>
     </head>
+    <script language= "javascript" src="funcoes.js"></script>
 
     <body>
 
@@ -20,16 +21,16 @@
 
     </hgroup>
     
-    <img id="icone" src="music_1.png"/>
+    <img id="icone" src="img/music_1.png"/>
     
        <nav id="menu">
        <h2> Menu Principal </h2>
         <ul type="disc">
-            <li><a href="Academic_Music.html">Home</a></li>
-            <li><a href="especifica.html">Especificações</a></li>
-            <li><a href="fotos.html">Fotos</a></li>
-            <li><a href="multimid.html">Multimídia</a></li>
-            <li><a href="fale.html">Fale conosco</a></li>
+            <li onmouseover="mudafoto('img/home.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="Academic_Music.html">Home</a></li>
+            <li onmouseover="mudafoto('img/especific.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="especifica.html">Especificações</a></li>
+            <li onmouseover="mudafoto('img/foto.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudafoto('img/multmid.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="multimid.html">Multimídia</a></li>
+            <li onmouseover="mudafoto('img/fale.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fale.html">Fale conosco</a></li>
         </ul>
        </nav>
     </header>
@@ -49,7 +50,7 @@ Diferente da música popular contemporânea,<br> que muitas vezes é voltada par
 
 <figure class="foto-legenda"> 
     
-    <img src = "acad-osesp-site.jpg">
+    <img src = "img/acad-osesp-site.jpg">
      <figcaption>
         
         Alunos de uma orquestra, aprendendo a música acadêmica.
