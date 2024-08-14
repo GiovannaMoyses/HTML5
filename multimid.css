@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+div#midia {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url(img/images.jpeg) no-repeat;
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    width: 300px;
+}
+video#filme{
+    display: block;
+    position: relative;
+    left: 265px;
+    width: 600px;
+}

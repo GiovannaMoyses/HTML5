@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <title> Tudo sobre Musica Acadêmica</title>
+        <link rel = "stylesheet"  href="estilo.css"/>
+        <link rel="stylesheet" href="fale.css"
+    </head>
+    <script language= "javascript" src="funcoes.js"></script>
+
+    <body>
+
+    <div id="interface"> 
+    <header id="cabecalho"> 
+    <hgroup>
+
+        <h1>Música Acadêmica</h1>
+        <h2>Musica é vida</h2>
+
+    </hgroup>
+    
+    <img id="icone" src="img/music_1.png"/>
+    
+       <nav id="menu">
+       <h2> Menu Principal </h2>
+        <ul type="disc">
+            <li onmouseover="mudafoto('img/home.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="Academic_Music.html">Home</a></li>
+            <li onmouseover="mudafoto('img/especific.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="especifica.html">Especificações</a></li>
+            <li onmouseover="mudafoto('img/foto.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudafoto('img/multmid.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="multimid.html">Multimídia</a></li>
+            <li onmouseover="mudafoto('img/fale.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fale.html">Fale conosco</a></li>
+        </ul>
+       </nav>
+    </header>
+<section id="corpo">
+    <article id="news">
+    <header id="artigo">
+<h3>Música >&nbsp;&nbsp;Cultura</h3>
+<h1>Conheça um pouco sobre Música Acadêmica</h1>
+<h2>Por Giovanna Moysés</h2>
+<h3 class="direito">Atualizado em 30/07/2024</h3>
+    </header>
+    <form>
+        <fieldset id="usuario"> <legend>Identificação do usuário</legend>
+            <p>Nome: <input type="text" name = "nome" id="nome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+            <p>Senha: <input type="password" name = "senha" id="senha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
+            <p> E-mail: <input type="email" name = "email" id="email" size="20" maxlength="30" placeholder="E-mail"/> </p>
+            <fieldset id="sexo"> <legend>Sexo:</legend>
+                       <input type="radio" nome ="sex" id= "sex"/> <label for="masc">Masculino<br></label>
+                       <input type="radio" nome ="sex" id= "sex"/><label for="fem">Feminino</label>
+                
+            </fieldset>
+            <p>Data nascimento: <input type="date" name="nasc" id="nasc" size="8" maxlength="8" placeholder=""></p>
+        </fieldset>
+        <fieldset><legend>Mande a sua mensagem</legend>
+            Mensagem:
+        </fieldset>
+    </form>
