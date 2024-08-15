@@ -22,16 +22,16 @@
 
     </hgroup>
     
-    <img id="icone" src="img/music_1.png"/>
+    <img id="icone" src="img/fale.png"/>
     
        <nav id="menu">
        <h2> Menu Principal </h2>
         <ul type="disc">
-            <li onmouseover="mudafoto('img/home.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="Academic_Music.html">Home</a></li>
-            <li onmouseover="mudafoto('img/especific.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="especifica.html">Especificações</a></li>
-            <li onmouseover="mudafoto('img/foto.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fotos.html">Fotos</a></li>
-            <li onmouseover="mudafoto('img/multmid.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="multimid.html">Multimídia</a></li>
-            <li onmouseover="mudafoto('img/fale.png')"onmouseout= "mudafoto('img/music_1.png')"><a href="fale.html">Fale conosco</a></li>
+            <li onmouseover="mudafoto('img/home.png')"onmouseout= "mudafoto('img/fale.png')"><a href="Academic_Music.html">Home</a></li>
+            <li onmouseover="mudafoto('img/especific.png')"onmouseout= "mudafoto('img/fale.png')"><a href="especifica.html">Especificações</a></li>
+            <li onmouseover="mudafoto('img/foto.png')"onmouseout= "mudafoto('img/fale.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudafoto('img/multmid.png')"onmouseout= "mudafoto('img/fale.png')"><a href="multimid.html">Multimídia</a></li>
+            <li onmouseover="mudafoto('img/fale.png')"onmouseout= "mudafoto('img/fale.png')"><a href="fale.html">Fale conosco</a></li>
         </ul>
        </nav>
     </header>
@@ -43,19 +43,19 @@
 <h2>Por Giovanna Moysés</h2>
 <h3 class="direito">Atualizado em 30/07/2024</h3>
     </header>
-    <form>
+    <form method="post" id="contato"  action="mailto:contato@musica.com" >
         <fieldset id="usuario"> <legend>Identificação do usuário</legend>
             <p>Nome: <input type="text" name = "nome" id="nome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
             <p>Senha: <input type="password" name = "senha" id="senha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
             <p> E-mail: <input type="email" name = "email" id="email" size="20" maxlength="30" placeholder="E-mail"/> </p>
             <fieldset id="sexo"> <legend>Sexo:</legend>
-                       <input type="radio" nome ="sex" id= "sex"/> <label for="masc">Masculino<br></label>
-                       <input type="radio" nome ="sex" id= "sex"/><label for="fem">Feminino</label>
-                
+                       <input type="radio" nome ="sex" id= "masc"> Masculino<br>
+                       <input type="radio" nome ="sex" id= "fem"/>Feminino
             </fieldset>
             <p>Data nascimento: <input type="date" name="nasc" id="nasc" size="8" maxlength="8" placeholder=""></p>
         </fieldset>
         <fieldset><legend>Mande a sua mensagem</legend>
-            Mensagem:
+            <p><label for="Msg">Mensagem:</label> <textarea name="msge" id="msge" cols="45" rows="5" placeholder="Mande a sua mensagem"></textarea></p>
+           
         </fieldset>
     </form>
